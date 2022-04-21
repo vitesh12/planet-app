@@ -1,6 +1,6 @@
 # Plant App - Flutter UI
 
-## [Watch it on YouTube](https://youtu.be/LN668OAUrK4)
+## [Watch it on YouTube](https://www.youtube.com/playlist?list=PLhdYSqJEaBu5Wpty7RqHM7zdFwl2L63dN)
 
 **Packages we are using:**
 
