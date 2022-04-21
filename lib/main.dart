@@ -1,7 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:plants_app/constants.dart';
-import 'package:plants_app/screens/home/home_screen.dart';
+import 'package:plant_app/constants.dart';
+import 'package:plant_app/screens/home/home_screen.dart';
 
 void main() {
   runApp(MyApp());

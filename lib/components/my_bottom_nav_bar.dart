@@ -1,21 +1,19 @@
-
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:plants_app/constants.dart';
 
-class MyBottomNavBar extends StatelessWidget{
-  const MyBottomNavBar ({
-    required Key key,
-  }) :super(key: key);
+import '../constants.dart';
+
+class MyBottomNavBar extends StatelessWidget {
+  const MyBottomNavBar({
+    Key key,
+  }) : super(key: key);
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.only(
-        left: kDefaultPadding *2,
-        right: kDefaultPadding *2,
+        left: kDefaultPadding * 2,
+        right: kDefaultPadding * 2,
         bottom: kDefaultPadding,
       ),
       height: 80,
@@ -23,7 +21,7 @@ class MyBottomNavBar extends StatelessWidget{
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            offset: Offset(0,-10),
+            offset: Offset(0, -10),
             blurRadius: 35,
             color: kPrimaryColor.withOpacity(0.38),
           ),
@@ -32,14 +30,17 @@ class MyBottomNavBar extends StatelessWidget{
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          IconButton(onPressed: (){}, 
-          icon: SvgPicture.asset("assets/icons/flower.svg"),
+          IconButton(
+            icon: SvgPicture.asset("assets/icons/flower.svg"),
+            onPressed: () {},
           ),
-          IconButton(onPressed: (){}, 
-          icon: SvgPicture.asset("assets/icons/heart-icon.svg"),
+          IconButton(
+            icon: SvgPicture.asset("assets/icons/heart-icon.svg"),
+            onPressed: () {},
           ),
-          IconButton(onPressed: (){}, 
-          icon: SvgPicture.asset("assets/icons/user-icon.svg"),
+          IconButton(
+            icon: SvgPicture.asset("assets/icons/user-icon.svg"),
+            onPressed: () {},
           ),
         ],
       ),
